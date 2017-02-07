@@ -1,0 +1,119 @@
+<!-- Demo Layout for Bootstrap (with panels) -->
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>Basic Portfolio</title>
+		<!-- We need to bring in the bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Roboto+Condensed" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<!-- NavBar (copied and pasted from WC3) -->
+		<!-- Static navbar -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- Brand -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					
+					<a class="navbar-brand " href="#">
+						<div class="head">
+							<h1>Seila Phlong</h1>
+						</div>
+					</a>
+					
+				</div>
+				
+				<div id="navbar" class="collapse navbar-collapse navbar-right">
+					<ul class="nav navbar-nav">
+						<div class="sidehead">
+							<li class="active"><a href="index.html">About</a></li>
+							<li><a href="Portfolio.html">Portfolio</a></li>
+							<li><a href="Contact.html">Contact</a></li>
+						</div>
+					</ul>
+				</div>
+				<!--/.nav-collapse -->
+			</div>
+			<!--/.container-fluid -->
+		</nav>
+		<!-- Main Body goes in Container -->
+		<div class="container">
+			<div class="body-info">
+				<div class="row">
+					<div class="col-lg-10">
+						<!-- The content in this div gets wrapped in a panel -->
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<h2>Portfolio</h2>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title">Connect with Me</h3>
+							</div>
+							<div class="panel-body">
+								<div class="sidesocial">
+									<a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub"></a>
+									<a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn"></a>
+									<a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<!-- <section class="main-section"> -->
+							<section class="main-section">
+								<div class="work">
+									<img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+									<h3>Hangman</h3>
+								</div>
+								<div class="work">
+									<img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+									<h3>RPG Game</h3>
+								</div>
+								<div class="work">
+									<img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+									<h3>Trivia Game</h3>
+								</div>
+								<div class="work">
+									<img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+									<h3>Rutgers Info Widget</h3>
+								</div>
+								<div class="work">
+									<img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+									<h3>Rock Paper Scissors</h3>
+								</div>
+							</section>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+		</div>
+		<div class="navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<p id="foot">Copyright &copy; 2017 Seila Phlong</p>
+			</div>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+		</script>
+	</body>
+</html>

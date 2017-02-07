@@ -1,0 +1,87 @@
+.social {
+	width: 30px;
+	height: 30px;
+	
+}
+.sidesocial {
+	height: 25px;
+	text-align: center;
+}
+.head {
+	background-color: #4aaaa5;
+	height: 40px;
+	width: 225px;
+	margin-top: -30px;
+}
+.head h1 {
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 30px;
+	margin-left: 15px;
+	padding: 5px;
+	color: #fff;
+}
+.sidehead {
+	margin-top: 15px;
+
+}
+.sidehead li {
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 15px;
+	display: inline;
+	padding: 20px;
+
+}
+.body-info {
+	margin-top: 60px;
+}
+.col-lg-10 img {
+	float: left;
+	height: 200px;
+	width: 200px;
+	padding-right: 10px;
+	padding-top: 5px;
+}
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+}
+#foot {
+	font-family: 'Nothing You Could Do', cursive;
+	background-color: #4aaaa5;
+	text-align: center;
+	margin-top: 10px;
+	color: #fff;
+}
+/*portfolio page*/
+.main-section {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.work {
+	position: relative;
+	width: 274px;
+	overflow: auto;
+	float: left;
+}
+.work img {
+	width: 100%;
+	border: 0 none;
+	opacity: .8;
+}
+.work h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	position: absolute;
+	bottom: 20px;
+	margin-bottom: 0;
+	margin-left: 0px;
+	width: 96.4%;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	background: #4aaaa5;
+	border-bottom: 0;
+}

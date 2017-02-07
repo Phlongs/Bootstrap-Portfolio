@@ -77,14 +77,11 @@ h3 {
 	position: absolute;
 	bottom: 20px;
 	margin-bottom: 0;
-	margin-left: 10px;
-	width: 92.7%;
+	margin-left: 0px;
+	width: 96.4%;
 	color: #fff;
 	text-align: center;
 	line-height: 30px;
 	background: #4aaaa5;
 	border-bottom: 0;
 }
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
-</script>

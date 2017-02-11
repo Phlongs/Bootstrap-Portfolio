@@ -3,6 +3,10 @@
 	height: 30px;
 	
 }
+body {
+	background: url("../images/concrete_seamless.png");
+	background-repeat: repeat;
+}
 .sidesocial {
 	height: 25px;
 	text-align: center;
